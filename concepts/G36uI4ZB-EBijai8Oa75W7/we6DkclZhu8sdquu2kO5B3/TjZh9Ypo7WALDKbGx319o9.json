@@ -8,7 +8,7 @@
   "vars" : [ {
     "name" : "_page_html",
     "expr" : {
-      "str" : "<h1 style=\"text-align: center; margin-top: 3em\">\n  Change this to Hello World!\n</h1>",
+      "str" : "<h1 style=\"text-align: center; margin-top: 3em\">\n  Change this!\n</h1>\n<p style=\"text-align: center\">Hint: Click the \"Show in IDE\" link in the footer of the page. ",
       "strEditMode" : ""
     }
   }, {
