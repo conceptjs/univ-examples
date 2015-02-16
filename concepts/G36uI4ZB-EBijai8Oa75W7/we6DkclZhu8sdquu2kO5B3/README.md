@@ -8,3 +8,4 @@ The code for the following concepts can be found here:
 - [s\-JyH\-3zNkBzB4lbjgUXa0.json](s-JyH-3zNkBzB4lbjgUXa0.json): Unit 4: Hello Jane Doe
 - [Mkm4l\-kp2vB3vKMa\-qOKR4.json](Mkm4l-kp2vB3vKMa-qOKR4.json): Unit 5: Example jQuery form
 - [KolRwwUIVj8upKrsTXgAmE.json](KolRwwUIVj8upKrsTXgAmE.json): Unit 6: Example Knockout form
+- [VeBpxC1MdL9h\_4emp6UWX6.json](VeBpxC1MdL9h_4emp6UWX6.json): Unit 7: Person

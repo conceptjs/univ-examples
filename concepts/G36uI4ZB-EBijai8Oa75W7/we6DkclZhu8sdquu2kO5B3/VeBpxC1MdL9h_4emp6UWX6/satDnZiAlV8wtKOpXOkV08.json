@@ -1,0 +1,33 @@
+{
+  "uri" : "local://satDnZiAlV8wtKOpXOkV08/",
+  "name" : "Example Person",
+  "category" : ".example",
+  "parent" : "local://VeBpxC1MdL9h_4emp6UWX6/",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "_person_firstName",
+    "expr" : {
+      "str" : "Alonzo",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_person_lastName",
+    "expr" : {
+      "str" : "Church",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "person",
+    "expr" : {
+      "concept" : "local://VeBpxC1MdL9h_4emp6UWX6/",
+      "bindings" : {
+        "firstName" : "_person_firstName",
+        "lastName" : "_person_lastName"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "person"
+  } ]
+}

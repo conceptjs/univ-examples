@@ -1,0 +1,31 @@
+{
+  "uri" : "local://ljUCFk92sL9xX4D-yPEbo3/",
+  "name" : "Person (About) (Wiki Page)",
+  "category" : ".about",
+  "parent" : "local://VeBpxC1MdL9h_4emp6UWX6/",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "_page_title",
+    "expr" : {
+      "str" : "Person (About)"
+    }
+  }, {
+    "name" : "_page_content",
+    "expr" : {
+      "str" : "<p>The Person lambda-concept has two lambda-properties, viz. firstName and lastName. Given any first and last name, this concept displays an editable form with these fields. </p>\n<p>You can see how this lambda-concept works by viewing its <a title=\"Alonzo Church\" href=\"../satDnZiAlV8wtKOpXOkV08/\">example binding</a>. Click the \"Show in IDE\" link in the footer to read the code behind Person.</p>"
+    }
+  }, {
+    "name" : "page",
+    "expr" : {
+      "concept" : "/common/core/h1osNTK5b5AkAafQ9UVEl6/",
+      "bindings" : {
+        "title" : "_page_title",
+        "content" : "_page_content"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "page"
+  } ]
+}
