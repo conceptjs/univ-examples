@@ -3,7 +3,6 @@
   "name" : "helloworld.css",
   "category" : "css",
   "parent" : "local://kx7Hy9-pSP8gLKJVkA07RF/",
-  "pname" : "Unit 2: Hello World (with a CSS)",
   "flags" : "U",
   "lvars" : [ ],
   "vars" : [ {
@@ -20,7 +19,6 @@
     "name" : "cssResource",
     "expr" : {
       "concept" : "/common/core/D_CaDRd425Aqj4mtY9Oh1B/",
-      "conceptName" : "CSS Resource",
       "bindings" : {
         "css" : "_cssResource_css",
         "fileName" : "_cssResource_fileName"
