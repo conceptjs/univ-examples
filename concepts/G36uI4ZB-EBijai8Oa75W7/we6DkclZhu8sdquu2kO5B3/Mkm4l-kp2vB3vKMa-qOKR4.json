@@ -3,7 +3,6 @@
   "name" : "Unit 5: Example jQuery form",
   "category" : "",
   "parent" : "local://we6DkclZhu8sdquu2kO5B3/",
-  "pname" : "Course 100 Examples (Folder)",
   "flags" : "U",
   "lvars" : [ ],
   "vars" : [ {
@@ -31,7 +30,6 @@
     "name" : "page",
     "expr" : {
       "concept" : "/common/core/Xfh2VQ4HSK9klqbqqR-eBB/",
-      "conceptName" : "Mustache HTML Page",
       "bindings" : {
         "htmlTemplate" : "htmlTemplate",
         "propertyMap" : "_page_propertyMap"
