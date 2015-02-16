@@ -1,37 +1,37 @@
 {
   "uri" : "local://s-JyH-3zNkBzB4lbjgUXa0/",
-  "name" : "Unit 5: Example jQuery form",
+  "name" : "Unit 4: Hello Jane Doe",
   "category" : "",
   "parent" : "local://we6DkclZhu8sdquu2kO5B3/",
-  "pname" : "Course 100 Examples (Folder)",
   "flags" : "U",
   "lvars" : [ ],
   "vars" : [ {
     "name" : "firstName",
     "expr" : {
-      "str" : "Jack"
+      "str" : "Jane",
+      "strEditMode" : ""
     }
   }, {
     "name" : "lastName",
     "expr" : {
-      "str" : "Smith"
+      "str" : "Doe",
+      "strEditMode" : ""
     }
   }, {
     "name" : "htmlTemplate",
     "expr" : {
-      "str" : "<head>\n  <script src=\"/resourcelocal://iuBEkts-cKA8Ha_JIN6JA2/\"></script>\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"/resourcelocal://0h6n12CibJBw5q_giDykW6/\">\n</head>\n<body>\n  <div id=\"container\" style=\"padding-top: 3em\">\n  <form class=\"form-horizontal col-sm-12 col-md-8 col-md-offset-2\">\n    <div class=\"form-group\">\n      <label for=\"inputFN\" class=\"col-sm-2 control-label\">First Name</label>\n      <div class=\"col-sm-10\">\n        <input type=\"text\" class=\"form-control\" id=\"inputFN\" placeholder=\"Enter the first name\" value=\"{{firstName}}\">\n      </div>\n    </div>\n    <div class=\"form-group\">\n      <label for=\"inputLN\" class=\"col-sm-2 control-label\">Last Name</label>\n      <div class=\"col-sm-10\">\n        <input type=\"text\" class=\"form-control\" id=\"inputLN\" placeholder=\"Enter the last name\" value=\"{{lastName}}\">\n      </div>\n    </div>\n    <div class=\"form-group\">\n      <div class=\"col-sm-offset-2 col-sm-10\">\n        <button type=\"submit\" class=\"btn btn-primary\" id=\"saveBtn\">Save</button>\n      </div>\n    </div>\n   </form>\n  </div>\n\n  <script>\n  var uri = \"{{{uri}}}\";\n  $(\"#saveBtn\").click(function() {\n    var firstName = $(\"#inputFN\").val();\n    var lastName = $(\"#inputLN\").val();\n    $cjs(uri).prop(\"firstName\", firstName).prop(\"lastName\", lastName);\n    $cjs.session.save();\n    return false;\n  });\n  </script>\n</body>",
+      "str" : "<head>\n  <script src=\"/resourcelocal://iuBEkts-cKA8Ha_JIN6JA2/\"></script>\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"/resourcelocal://0h6n12CibJBw5q_giDykW6/\">\n</head>\n<body>\n  <h1>Hello {{firstName}} {{lastName}}!</h1>\n</body>",
       "strEditMode" : "html"
     }
   }, {
     "name" : "_page_propertyMap",
     "expr" : {
-      "script" : "return {firstName: firstName, lastName: lastName, uri: home.uri()};"
+      "script" : "return {firstName: firstName, lastName: lastName};"
     }
   }, {
     "name" : "page",
     "expr" : {
       "concept" : "/common/core/Xfh2VQ4HSK9klqbqqR-eBB/",
-      "conceptName" : "Mustache HTML Page",
       "bindings" : {
         "htmlTemplate" : "htmlTemplate",
         "propertyMap" : "_page_propertyMap"
@@ -40,6 +40,5 @@
   } ],
   "isas" : [ {
     "var" : "page"
-  } ],
-  "isLambda" : false
+  } ]
 }
