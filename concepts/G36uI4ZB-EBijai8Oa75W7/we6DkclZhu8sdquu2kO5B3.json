@@ -13,7 +13,7 @@
   }, {
     "name" : "_folder_description",
     "expr" : {
-      "str" : "<p>This folder contains examples from Course 100. You can view and modify these examples in the IDE. </p>"
+      "str" : "<p>This folder contains examples from Course 100. You can view and modify these examples in the ConceptJS IDE. </p>"
     }
   }, {
     "name" : "folder",
@@ -27,6 +27,5 @@
   } ],
   "isas" : [ {
     "var" : "folder"
-  } ],
-  "isLambda" : false
+  } ]
 }
