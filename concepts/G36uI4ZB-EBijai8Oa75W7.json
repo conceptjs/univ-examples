@@ -19,7 +19,6 @@
     "name" : "folder",
     "expr" : {
       "concept" : "/common/core/wsKVkUn9bNAX_qlv_2Nvm6/",
-      "conceptName" : "Folder",
       "bindings" : {
         "name" : "folderName",
         "description" : "_folder_description"
@@ -34,7 +33,6 @@
     "name" : "repo",
     "expr" : {
       "concept" : "/common/core/dikjRMQUWrB_rK4hvxvxP8/",
-      "conceptName" : "Repo Root Lambda",
       "bindings" : {
         "repoUri" : "_repo_repoUri"
       }
