@@ -1,0 +1,34 @@
+{
+  "uri" : "local://we6DkclZhu8sdquu2kO5B3/",
+  "name" : "Course 100 Examples (Folder)",
+  "category" : "",
+  "parent" : "local://G36uI4ZB-EBijai8Oa75W7/",
+  "pname" : "course100-sandbox (Repository)",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "folderName",
+    "expr" : {
+      "str" : "Course 100 Examples"
+    }
+  }, {
+    "name" : "_folder_description",
+    "expr" : {
+      "str" : "<p>This folder contains examples from Course 100. You can view and modify these examples in the IDE. </p>"
+    }
+  }, {
+    "name" : "folder",
+    "expr" : {
+      "concept" : "/common/core/wsKVkUn9bNAX_qlv_2Nvm6/",
+      "conceptName" : "Folder",
+      "bindings" : {
+        "name" : "folderName",
+        "description" : "_folder_description"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "folder"
+  } ],
+  "isLambda" : false
+}

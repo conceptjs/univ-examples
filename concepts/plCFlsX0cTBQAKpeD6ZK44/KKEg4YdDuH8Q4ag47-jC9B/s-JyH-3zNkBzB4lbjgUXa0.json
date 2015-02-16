@@ -1,0 +1,44 @@
+{
+  "uri" : "local://s-JyH-3zNkBzB4lbjgUXa0/",
+  "name" : "Unit 4: Hello Jane Doe",
+  "category" : "",
+  "parent" : "local://we6DkclZhu8sdquu2kO5B3/",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "firstName",
+    "expr" : {
+      "str" : "Jane",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "lastName",
+    "expr" : {
+      "str" : "Doe",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_page_htmlTemplate",
+    "expr" : {
+      "str" : "<head>\n  <script src=\"/resourcelocal://aAqNY8l0by9ZS4VunCquOA/\" type=\"text/javascript\"></script>\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"/resourcelocal://HKeMGqDOMU8vTqkw2OhnW7/\">\n</head>\n<body>\n  <h1>Hello {{firstName}} {{lastName}}!</h1>\n</body>",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_page_propertyMap",
+    "expr" : {
+      "script" : "return {firstName: firstName, lastName: lastName};"
+    }
+  }, {
+    "name" : "page",
+    "expr" : {
+      "concept" : "/common/core/Xfh2VQ4HSK9klqbqqR-eBB/",
+      "bindings" : {
+        "htmlTemplate" : "_page_htmlTemplate",
+        "propertyMap" : "_page_propertyMap"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "page"
+  } ]
+}

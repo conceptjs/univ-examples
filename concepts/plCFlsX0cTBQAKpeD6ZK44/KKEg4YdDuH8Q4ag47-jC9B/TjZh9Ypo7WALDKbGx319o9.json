@@ -1,0 +1,26 @@
+{
+  "uri" : "local://TjZh9Ypo7WALDKbGx319o9/",
+  "name" : "Unit 1: Hello World",
+  "category" : "",
+  "parent" : "local://we6DkclZhu8sdquu2kO5B3/",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "_page_html",
+    "expr" : {
+      "str" : "<h1 style=\"text-align: center; margin-top: 3em\">\n  Change this to Hello World!\n</h1>",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "page",
+    "expr" : {
+      "concept" : "/common/core/iduwOQ2KZv8MWqamwqb6AE/",
+      "bindings" : {
+        "html" : "_page_html"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "page"
+  } ]
+}

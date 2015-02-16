@@ -1,0 +1,34 @@
+{
+  "uri" : "local://iuBEkts-cKA8Ha_JIN6JA2/",
+  "name" : "helloworld.js",
+  "category" : "js",
+  "parent" : "local://LKZdh0Gfvd9Kc4h2EV7rD5/",
+  "pname" : "Unit 3: Hello World (with a CSS and JS)",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "_javascriptResource_js",
+    "expr" : {
+      "str" : "$(function() {\n  $(\"h1\").animate({ \"fontSize\": \"8em\" }, 5000);\n});"
+    }
+  }, {
+    "name" : "_javascriptResource_fileName",
+    "expr" : {
+      "str" : "helloworld.js"
+    }
+  }, {
+    "name" : "javascriptResource",
+    "expr" : {
+      "concept" : "/common/core/nK_9eZMUDp8T6qqr7t5k67/",
+      "conceptName" : "Javascript Resource",
+      "bindings" : {
+        "js" : "_javascriptResource_js",
+        "fileName" : "_javascriptResource_fileName"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "javascriptResource"
+  } ],
+  "isLambda" : false
+}

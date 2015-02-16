@@ -1,0 +1,49 @@
+{
+  "uri" : "local://G36uI4ZB-EBijai8Oa75W7/",
+  "name" : "univ-examples (Repository)",
+  "category" : "",
+  "pname" : "Folder",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "folderName",
+    "expr" : {
+      "str" : "univ-examples"
+    }
+  }, {
+    "name" : "_folder_description",
+    "expr" : {
+      "str" : "<p>This repository contains example concepts referenced in University Courses. </p>"
+    }
+  }, {
+    "name" : "folder",
+    "expr" : {
+      "concept" : "/common/core/wsKVkUn9bNAX_qlv_2Nvm6/",
+      "conceptName" : "Folder",
+      "bindings" : {
+        "name" : "folderName",
+        "description" : "_folder_description"
+      }
+    }
+  }, {
+    "name" : "_repo_repoUri",
+    "expr" : {
+      "str" : "/common/course100-sandbox/"
+    }
+  }, {
+    "name" : "repo",
+    "expr" : {
+      "concept" : "/common/core/dikjRMQUWrB_rK4hvxvxP8/",
+      "conceptName" : "Repo Root Lambda",
+      "bindings" : {
+        "repoUri" : "_repo_repoUri"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "folder"
+  }, {
+    "var" : "repo"
+  } ],
+  "isLambda" : false
+}
