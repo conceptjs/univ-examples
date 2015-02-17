@@ -52,5 +52,6 @@
     "var" : "page"
   }, {
     "var" : "namedConcept"
-  } ]
+  } ],
+  "isLambda" : true
 }

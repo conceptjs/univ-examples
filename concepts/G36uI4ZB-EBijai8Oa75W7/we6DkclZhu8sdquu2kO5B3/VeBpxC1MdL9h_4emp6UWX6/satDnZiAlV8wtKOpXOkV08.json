@@ -29,5 +29,6 @@
   } ],
   "isas" : [ {
     "var" : "person"
-  } ]
+  } ],
+  "isLambda" : false
 }

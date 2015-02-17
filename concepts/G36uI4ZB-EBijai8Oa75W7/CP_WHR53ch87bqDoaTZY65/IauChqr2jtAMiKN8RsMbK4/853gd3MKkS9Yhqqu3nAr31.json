@@ -42,5 +42,6 @@
   } ],
   "isas" : [ {
     "var" : "programmer"
-  } ]
+  } ],
+  "isLambda" : false
 }

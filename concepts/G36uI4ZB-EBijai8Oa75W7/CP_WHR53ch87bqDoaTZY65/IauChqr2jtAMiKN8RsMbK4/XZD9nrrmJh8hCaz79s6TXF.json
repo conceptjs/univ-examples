@@ -34,5 +34,6 @@
     "oncVar" : "hasBeard"
   }, {
     "concept" : "local://G5Jcx1A65iBFwqbew9Jdo9/"
-  } ]
+  } ],
+  "isLambda" : true
 }
