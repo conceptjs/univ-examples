@@ -1,0 +1,31 @@
+{
+  "uri" : "local://ttdvig0mKeBQmqPqOOYs20/",
+  "name" : "About Contact (Wiki Page)",
+  "category" : ".about",
+  "parent" : "local://sTM2e6vwMY8aXKgk5Sg8y6/",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "_page_title",
+    "expr" : {
+      "str" : "About Contact"
+    }
+  }, {
+    "name" : "_page_content",
+    "expr" : {
+      "str" : "<p>The Contact lambda-concept has three lambda-properties, viz. firstName, lastName and email, and displays an editable form with these fields.</p>"
+    }
+  }, {
+    "name" : "page",
+    "expr" : {
+      "concept" : "/common/core/h1osNTK5b5AkAafQ9UVEl6/",
+      "bindings" : {
+        "title" : "_page_title",
+        "content" : "_page_content"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "page"
+  } ]
+}
