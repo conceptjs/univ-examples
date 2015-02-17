@@ -1,0 +1,38 @@
+{
+  "uri" : "local://nRB-wlrUu38JbqT64Qa9o8/",
+  "name" : "Jack Smith (Contact)",
+  "category" : "contact",
+  "parent" : "local://gXUAq35Jfu99v4aWEi019F/",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "_contact_firstName",
+    "expr" : {
+      "str" : "Jack"
+    }
+  }, {
+    "name" : "_contact_lastName",
+    "expr" : {
+      "str" : "Smith"
+    }
+  }, {
+    "name" : "_contact_email",
+    "expr" : {
+      "str" : "jack.smith@gmail.com"
+    }
+  }, {
+    "name" : "contact",
+    "expr" : {
+      "concept" : "local://sTM2e6vwMY8aXKgk5Sg8y6/",
+      "bindings" : {
+        "firstName" : "_contact_firstName",
+        "lastName" : "_contact_lastName",
+        "email" : "_contact_email"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "contact"
+  } ],
+  "isLambda" : false
+}

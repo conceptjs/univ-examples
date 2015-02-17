@@ -1,0 +1,33 @@
+{
+  "uri" : "local://QOhHilefUl9wwaZbKwSHG1/",
+  "name" : "Unit 8: Contacts (Folder)",
+  "category" : "",
+  "parent" : "local://we6DkclZhu8sdquu2kO5B3/",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "folderName",
+    "expr" : {
+      "str" : "Unit 8: Contacts"
+    }
+  }, {
+    "name" : "_folder_description",
+    "expr" : {
+      "str" : "Double-click here, or click the Edit button on the top-left, to edit the description",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "folder",
+    "expr" : {
+      "concept" : "/common/core/wsKVkUn9bNAX_qlv_2Nvm6/",
+      "bindings" : {
+        "name" : "folderName",
+        "description" : "_folder_description"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "folder"
+  } ],
+  "isLambda" : false
+}
