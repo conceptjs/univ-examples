@@ -13,8 +13,7 @@
   }, {
     "name" : "_folder_description",
     "expr" : {
-      "str" : "Double-click here, or click the Edit button on the top-left, to edit the description",
-      "strEditMode" : ""
+      "str" : "<p>This folder shows the Contact lambda concept and a custom contacts folder. </p>"
     }
   }, {
     "name" : "folder",
