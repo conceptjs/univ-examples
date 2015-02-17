@@ -1,0 +1,32 @@
+{
+  "uri" : "local://Ocim6OiKrfBD2K_GZ0Bs0D/",
+  "name" : "Tim BL v1",
+  "category" : "programmer",
+  "parent" : "local://mOxLUotQ37BeW4M87_BTS8/",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "firstName",
+    "expr" : {
+      "str" : "Tim",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "lastName",
+    "expr" : {
+      "str" : "Berners-Lee",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "fullName",
+    "expr" : {
+      "script" : "return firstName + ' ' + lastName;"
+    }
+  }, {
+    "name" : "hasBeard",
+    "expr" : {
+      "bool" : false
+    }
+  } ],
+  "isas" : [ ]
+}

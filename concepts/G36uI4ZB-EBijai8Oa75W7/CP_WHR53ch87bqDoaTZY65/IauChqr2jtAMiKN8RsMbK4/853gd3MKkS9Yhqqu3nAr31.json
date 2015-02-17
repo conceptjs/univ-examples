@@ -1,0 +1,46 @@
+{
+  "uri" : "local://853gd3MKkS9Yhqqu3nAr31/",
+  "name" : "James Gosling v2",
+  "category" : "programmer",
+  "parent" : "local://IauChqr2jtAMiKN8RsMbK4/",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "_programmer_firstName",
+    "expr" : {
+      "str" : "James",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_programmer_lastName",
+    "expr" : {
+      "str" : "Gosling",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_programmer_hasBeard",
+    "expr" : {
+      "bool" : true
+    }
+  }, {
+    "name" : "_programmer_bio",
+    "expr" : {
+      "str" : "Father of the Java programming language",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "programmer",
+    "expr" : {
+      "concept" : "local://XZD9nrrmJh8hCaz79s6TXF/",
+      "bindings" : {
+        "firstName" : "_programmer_firstName",
+        "lastName" : "_programmer_lastName",
+        "hasBeard" : "_programmer_hasBeard",
+        "bio" : "_programmer_bio"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "programmer"
+  } ]
+}

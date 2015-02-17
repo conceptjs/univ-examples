@@ -1,0 +1,32 @@
+{
+  "uri" : "local://tmDzGep3KKBlwqM3BdBdQD/",
+  "name" : "James Gosling v1",
+  "category" : "programmer",
+  "parent" : "local://mOxLUotQ37BeW4M87_BTS8/",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "firstName",
+    "expr" : {
+      "str" : "James",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "lastName",
+    "expr" : {
+      "str" : "Gosling",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "fullName",
+    "expr" : {
+      "script" : "return firstName + ' ' + lastName;"
+    }
+  }, {
+    "name" : "hasBeard",
+    "expr" : {
+      "bool" : true
+    }
+  } ],
+  "isas" : [ ]
+}
