@@ -1,0 +1,37 @@
+{
+  "uri" : "local://gXUAq35Jfu99v4aWEi019F/",
+  "name" : "Custom Contacts Folder",
+  "category" : "",
+  "parent" : "local://QOhHilefUl9wwaZbKwSHG1/",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "htmlTemplate",
+    "expr" : {
+      "str" : "<html>\n<head>\n<!-- DataTables CSS -->\n<link rel=\"stylesheet\" type=\"text/css\" href=\"https://cdn.datatables.net/1.10.0/css/jquery.dataTables.css\">\n</head>\n\n<body>\n<h2>Contacts List</h2>\n\n<div id=\"searchresult\"></div>\n\n<table id=\"myTable\" class=\"display\">\n  <thead>\n  <tr>\n    <th>First Name</th>\n    <th>Last Name</th>\n    <th>Email address</th>\n  </tr>\n  </thead>\n  <tbody>\n  </tbody>\n</table>\n\n<script type=\"text/javascript\" charset=\"utf8\" src=\"https://cdn.datatables.net/1.10.0/js/jquery.dataTables.js\"></script>\n<script>\n  $(function () {\n    var table = $('#myTable').DataTable( {\n        \"order\": [[1, \"asc\"]]\n    });\n    var rows = {{{tableJson}}};\n    _.each(rows, function(row) {\n      table.row.add(row);\n    });\n    table.draw();\n  });\n</script>\n</body>\n</html>",
+      "strEditMode" : "html"
+    }
+  }, {
+    "name" : "tableJson",
+    "expr" : {
+      "script" : "var children = home.anchor().children();\n\nvar contactLambdaUri = 'local://sTM2e6vwMY8aXKgk5Sg8y6/';\nvar rowList = _.map(children, function(child) {\n    // Find contact in child\n    var contact = child.as(contactLambdaUri);\n    \n    // Add a list of column values\n    var firstName = contact.prop('firstName').val();\n    var lastName = contact.prop('lastName').val();\n    var email = contact.prop('email').val();\n    var emailWithLink = '<a href=\"/view' + child.uri() + '\">' + email + '</a>';\n\n    return [firstName, lastName, emailWithLink];\n});\n\nreturn rowList;"
+    }
+  }, {
+    "name" : "_page_propertyMap",
+    "expr" : {
+      "script" : "return {tableJson: JSON.stringify(tableJson)};"
+    }
+  }, {
+    "name" : "page",
+    "expr" : {
+      "concept" : "/common/core/Xfh2VQ4HSK9klqbqqR-eBB/",
+      "bindings" : {
+        "htmlTemplate" : "htmlTemplate",
+        "propertyMap" : "_page_propertyMap"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "page"
+  } ]
+}

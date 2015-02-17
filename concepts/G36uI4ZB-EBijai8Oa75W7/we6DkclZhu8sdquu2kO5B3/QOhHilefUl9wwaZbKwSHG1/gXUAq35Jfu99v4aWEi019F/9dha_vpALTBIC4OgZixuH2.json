@@ -1,0 +1,37 @@
+{
+  "uri" : "local://9dha_vpALTBIC4OgZixuH2/",
+  "name" : "Sridhar Ramachandran (Contact)",
+  "category" : "contact",
+  "parent" : "local://gXUAq35Jfu99v4aWEi019F/",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "_contact_firstName",
+    "expr" : {
+      "str" : "Sridhar"
+    }
+  }, {
+    "name" : "_contact_lastName",
+    "expr" : {
+      "str" : "Ramachandran"
+    }
+  }, {
+    "name" : "_contact_email",
+    "expr" : {
+      "str" : "sridhar@lambdazen.com"
+    }
+  }, {
+    "name" : "contact",
+    "expr" : {
+      "concept" : "local://sTM2e6vwMY8aXKgk5Sg8y6/",
+      "bindings" : {
+        "firstName" : "_contact_firstName",
+        "lastName" : "_contact_lastName",
+        "email" : "_contact_email"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "contact"
+  } ]
+}
