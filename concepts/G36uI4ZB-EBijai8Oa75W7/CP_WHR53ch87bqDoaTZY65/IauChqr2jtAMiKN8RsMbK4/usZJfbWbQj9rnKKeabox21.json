@@ -19,7 +19,7 @@
   }, {
     "name" : "_programmer_hasBeard",
     "expr" : {
-      "bool" : true
+      "bool" : false
     }
   }, {
     "name" : "_programmer_bio",
