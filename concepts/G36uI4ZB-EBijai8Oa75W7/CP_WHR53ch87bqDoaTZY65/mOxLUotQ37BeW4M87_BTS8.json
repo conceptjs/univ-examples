@@ -1,0 +1,32 @@
+{
+  "uri" : "local://mOxLUotQ37BeW4M87_BTS8/",
+  "name" : "Unit 2: Simple properties (Folder)",
+  "category" : "",
+  "parent" : "local://CP_WHR53ch87bqDoaTZY65/",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "folderName",
+    "expr" : {
+      "str" : "Unit 2: Simple properties"
+    }
+  }, {
+    "name" : "_folder_description",
+    "expr" : {
+      "str" : "<p>This folder includes a couple of concepts \"Tim BL v1\" and \"James Gosling v1\" which have simple properties firstName (string), lastName (string), hasBeard (boolean), and fullName (script).</p>\n<p>You can click the \"Show in IDE\" link when viewing these concepts to edit these properties.</p>"
+    }
+  }, {
+    "name" : "folder",
+    "expr" : {
+      "concept" : "/common/core/wsKVkUn9bNAX_qlv_2Nvm6/",
+      "bindings" : {
+        "name" : "folderName",
+        "description" : "_folder_description"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "folder"
+  } ],
+  "isLambda" : false
+}

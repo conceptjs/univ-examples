@@ -3,6 +3,3 @@ This is an export of a ConceptJS repository. You can:
 - *(Owner only)* [Synchronize the repo](https://web.conceptjs.com/launch?mode=manage) with ConceptJS. 
 - *(Contributors)* Fork this repo in GitHub and click the 'Launch' link to *deploy your fork* to ConceptJS. You can sync back your changes to GitHub and generate a pull request.
 
-The code for the following concepts can be found here: 
-
-- [G36uI4ZB\-EBijai8Oa75W7.json](G36uI4ZB-EBijai8Oa75W7.json): univ\-examples \(Repository\)
