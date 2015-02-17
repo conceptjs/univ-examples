@@ -33,5 +33,6 @@
   } ],
   "isas" : [ {
     "var" : "contact"
-  } ]
+  } ],
+  "isLambda" : false
 }

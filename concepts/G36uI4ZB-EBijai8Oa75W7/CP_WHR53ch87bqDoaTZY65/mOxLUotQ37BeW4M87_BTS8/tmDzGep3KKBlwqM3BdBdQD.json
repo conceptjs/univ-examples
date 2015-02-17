@@ -28,5 +28,6 @@
       "bool" : true
     }
   } ],
-  "isas" : [ ]
+  "isas" : [ ],
+  "isLambda" : false
 }
