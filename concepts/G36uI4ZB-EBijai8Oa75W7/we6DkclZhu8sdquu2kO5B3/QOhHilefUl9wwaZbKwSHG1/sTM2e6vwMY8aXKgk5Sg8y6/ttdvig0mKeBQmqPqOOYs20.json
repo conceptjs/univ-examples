@@ -13,7 +13,7 @@
   }, {
     "name" : "_page_content",
     "expr" : {
-      "str" : "<p>The Contact lambda-concept has three lambda-properties, viz. firstName, lastName and email, and displays an editable form with these fields.</p>"
+      "str" : "<p>The Contact lambda-concept has three lambda-properties, viz. firstName, lastName and email, and displays an editable form with these fields.</p>\n<p>Check out this <a title=\"Jack Smith\" href=\"../nRB-wlrUu38JbqT64Qa9o8/\">example contact</a>.</p>"
     }
   }, {
     "name" : "page",
@@ -27,5 +27,6 @@
   } ],
   "isas" : [ {
     "var" : "page"
-  } ]
+  } ],
+  "isLambda" : false
 }
