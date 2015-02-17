@@ -6,5 +6,6 @@
   "flags" : "U",
   "lvars" : [ ],
   "vars" : [ ],
-  "isas" : [ ]
+  "isas" : [ ],
+  "isLambda" : false
 }

@@ -27,5 +27,6 @@
   } ],
   "isas" : [ {
     "var" : "folder"
-  } ]
+  } ],
+  "isLambda" : false
 }
