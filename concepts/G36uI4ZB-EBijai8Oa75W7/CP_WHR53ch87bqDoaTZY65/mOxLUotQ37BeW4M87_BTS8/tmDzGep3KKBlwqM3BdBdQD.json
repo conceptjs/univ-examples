@@ -9,25 +9,30 @@
     "name" : "firstName",
     "expr" : {
       "str" : "James",
-      "strEditMode" : ""
+      "strEditMode" : "",
+      "type" : "STRING"
     }
   }, {
     "name" : "lastName",
     "expr" : {
       "str" : "Gosling",
-      "strEditMode" : ""
+      "strEditMode" : "",
+      "type" : "STRING"
     }
   }, {
     "name" : "fullName",
     "expr" : {
-      "script" : "return firstName + ' ' + lastName;"
+      "script" : "return firstName + ' ' + lastName;",
+      "type" : "SCRIPT"
     }
   }, {
     "name" : "hasBeard",
     "expr" : {
-      "bool" : true
+      "bool" : true,
+      "type" : "BOOLEAN"
     }
   } ],
   "isas" : [ ],
+  "encodedidxhash" : "",
   "isLambda" : false
 }

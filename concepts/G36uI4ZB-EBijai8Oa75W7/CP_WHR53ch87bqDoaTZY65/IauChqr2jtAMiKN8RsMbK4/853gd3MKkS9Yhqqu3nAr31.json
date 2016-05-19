@@ -9,24 +9,28 @@
     "name" : "_programmer_firstName",
     "expr" : {
       "str" : "James",
-      "strEditMode" : ""
+      "strEditMode" : "",
+      "type" : "STRING"
     }
   }, {
     "name" : "_programmer_lastName",
     "expr" : {
       "str" : "Gosling",
-      "strEditMode" : ""
+      "strEditMode" : "",
+      "type" : "STRING"
     }
   }, {
     "name" : "_programmer_hasBeard",
     "expr" : {
-      "bool" : true
+      "bool" : true,
+      "type" : "BOOLEAN"
     }
   }, {
     "name" : "_programmer_bio",
     "expr" : {
       "str" : "Father of the Java programming language",
-      "strEditMode" : ""
+      "strEditMode" : "",
+      "type" : "STRING"
     }
   }, {
     "name" : "programmer",
@@ -37,11 +41,13 @@
         "lastName" : "_programmer_lastName",
         "hasBeard" : "_programmer_hasBeard",
         "bio" : "_programmer_bio"
-      }
+      },
+      "type" : "CONCEPT"
     }
   } ],
   "isas" : [ {
     "var" : "programmer"
   } ],
+  "encodedidxhash" : "",
   "isLambda" : false
 }

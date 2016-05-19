@@ -14,19 +14,22 @@
     "name" : "hasBeard",
     "type" : "/common/types/74mIR2uFvPAAiqCdiDkp18/",
     "default" : {
-      "bool" : false
+      "bool" : false,
+      "type" : "BOOLEAN"
     }
   }, {
     "name" : "bio",
     "type" : "/common/types/t6plZKh35i93o453wH2NX2/",
     "default" : {
-      "str" : "N/A"
+      "str" : "N/A",
+      "type" : "STRING"
     }
   } ],
   "vars" : [ {
     "name" : "fullName",
     "expr" : {
-      "script" : "console.log('Calculating the full name for ' + firstName);\nreturn firstName + ' ' + lastName;"
+      "script" : "console.log('Calculating the full name for ' + firstName);\nreturn firstName + ' ' + lastName;",
+      "type" : "SCRIPT"
     }
   } ],
   "isas" : [ {
@@ -35,5 +38,6 @@
   }, {
     "concept" : "local://G5Jcx1A65iBFwqbew9Jdo9/"
   } ],
+  "encodedidxhash" : "",
   "isLambda" : true
 }

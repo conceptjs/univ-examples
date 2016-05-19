@@ -8,12 +8,14 @@
   "vars" : [ {
     "name" : "_cssResource_css",
     "expr" : {
-      "str" : "@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,500,300italic,500italic,700italic,900,300);\n\nh1 {\n  font-size:4em;\n  font-family: \"Roboto\", sans serif;\n  font-weight: 500;\n  text-align: center;\n}"
+      "str" : "@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,500,300italic,500italic,700italic,900,300);\n\nh1 {\n  font-size:4em;\n  font-family: \"Roboto\", sans serif;\n  font-weight: 500;\n  text-align: center;\n}",
+      "type" : "STRING"
     }
   }, {
     "name" : "_cssResource_fileName",
     "expr" : {
-      "str" : "helloworld.css"
+      "str" : "helloworld.css",
+      "type" : "STRING"
     }
   }, {
     "name" : "cssResource",
@@ -22,11 +24,13 @@
       "bindings" : {
         "css" : "_cssResource_css",
         "fileName" : "_cssResource_fileName"
-      }
+      },
+      "type" : "CONCEPT"
     }
   } ],
   "isas" : [ {
     "var" : "cssResource"
   } ],
+  "encodedidxhash" : "",
   "isLambda" : false
 }

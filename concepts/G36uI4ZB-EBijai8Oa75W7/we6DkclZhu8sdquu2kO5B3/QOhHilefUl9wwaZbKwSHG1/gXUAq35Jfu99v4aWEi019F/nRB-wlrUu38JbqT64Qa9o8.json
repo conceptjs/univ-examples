@@ -8,17 +8,20 @@
   "vars" : [ {
     "name" : "_contact_firstName",
     "expr" : {
-      "str" : "Jack"
+      "str" : "Jack",
+      "type" : "STRING"
     }
   }, {
     "name" : "_contact_lastName",
     "expr" : {
-      "str" : "Smith"
+      "str" : "Smith",
+      "type" : "STRING"
     }
   }, {
     "name" : "_contact_email",
     "expr" : {
-      "str" : "jack.smith@gmail.com"
+      "str" : "jack.smith@gmail.com",
+      "type" : "STRING"
     }
   }, {
     "name" : "contact",
@@ -28,11 +31,13 @@
         "firstName" : "_contact_firstName",
         "lastName" : "_contact_lastName",
         "email" : "_contact_email"
-      }
+      },
+      "type" : "CONCEPT"
     }
   } ],
   "isas" : [ {
     "var" : "contact"
   } ],
+  "encodedidxhash" : "",
   "isLambda" : false
 }

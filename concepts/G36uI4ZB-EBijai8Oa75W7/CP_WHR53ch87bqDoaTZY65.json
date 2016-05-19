@@ -8,12 +8,14 @@
   "vars" : [ {
     "name" : "folderName",
     "expr" : {
-      "str" : "Course 101 Examples"
+      "str" : "Course 101 Examples",
+      "type" : "STRING"
     }
   }, {
     "name" : "_folder_description",
     "expr" : {
-      "str" : "<p>This folder contains examples from Course 101. You can view and modify these examples in the ConceptJS IDE.</p>"
+      "str" : "<p>This folder contains examples from Course 101. You can view and modify these examples in the ConceptJS IDE.</p>",
+      "type" : "STRING"
     }
   }, {
     "name" : "folder",
@@ -22,11 +24,13 @@
       "bindings" : {
         "name" : "folderName",
         "description" : "_folder_description"
-      }
+      },
+      "type" : "CONCEPT"
     }
   } ],
   "isas" : [ {
     "var" : "folder"
   } ],
+  "encodedidxhash" : "",
   "isLambda" : false
 }

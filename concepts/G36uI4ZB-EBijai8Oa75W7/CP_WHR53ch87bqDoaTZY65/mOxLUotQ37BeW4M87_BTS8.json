@@ -8,12 +8,14 @@
   "vars" : [ {
     "name" : "folderName",
     "expr" : {
-      "str" : "Unit 2: Simple properties"
+      "str" : "Unit 2: Simple properties",
+      "type" : "STRING"
     }
   }, {
     "name" : "_folder_description",
     "expr" : {
-      "str" : "<p>This folder includes a couple of concepts \"Tim BL v1\" and \"James Gosling v1\" which have simple properties firstName (string), lastName (string), hasBeard (boolean), and fullName (script).</p>\n<p>You can click the \"Show in IDE\" link when viewing these concepts to edit these properties.</p>"
+      "str" : "<p>This folder includes a couple of concepts \"Tim BL v1\" and \"James Gosling v1\" which have simple properties firstName (string), lastName (string), hasBeard (boolean), and fullName (script).</p>\n<p>You can click the \"Show in IDE\" link when viewing these concepts to edit these properties.</p>",
+      "type" : "STRING"
     }
   }, {
     "name" : "folder",
@@ -22,11 +24,13 @@
       "bindings" : {
         "name" : "folderName",
         "description" : "_folder_description"
-      }
+      },
+      "type" : "CONCEPT"
     }
   } ],
   "isas" : [ {
     "var" : "folder"
   } ],
+  "encodedidxhash" : "",
   "isLambda" : false
 }

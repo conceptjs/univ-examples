@@ -8,12 +8,14 @@
   "vars" : [ {
     "name" : "_javascriptResource_js",
     "expr" : {
-      "str" : "$(function() {\n  $(\"h1\").animate({ \"fontSize\": \"8em\" }, 5000);\n});"
+      "str" : "$(function() {\n  $(\"h1\").animate({ \"fontSize\": \"8em\" }, 5000);\n});",
+      "type" : "STRING"
     }
   }, {
     "name" : "_javascriptResource_fileName",
     "expr" : {
-      "str" : "helloworld.js"
+      "str" : "helloworld.js",
+      "type" : "STRING"
     }
   }, {
     "name" : "javascriptResource",
@@ -22,11 +24,13 @@
       "bindings" : {
         "js" : "_javascriptResource_js",
         "fileName" : "_javascriptResource_fileName"
-      }
+      },
+      "type" : "CONCEPT"
     }
   } ],
   "isas" : [ {
     "var" : "javascriptResource"
   } ],
+  "encodedidxhash" : "",
   "isLambda" : false
 }

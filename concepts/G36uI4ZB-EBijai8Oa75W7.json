@@ -8,12 +8,14 @@
   "vars" : [ {
     "name" : "folderName",
     "expr" : {
-      "str" : "univ-examples"
+      "str" : "univ-examples",
+      "type" : "STRING"
     }
   }, {
     "name" : "_folder_description",
     "expr" : {
-      "str" : "<p>This repository contains example concepts referenced in University Courses. </p>"
+      "str" : "<p>This repository contains example concepts referenced in University Courses. </p>",
+      "type" : "STRING"
     }
   }, {
     "name" : "folder",
@@ -22,12 +24,14 @@
       "bindings" : {
         "name" : "folderName",
         "description" : "_folder_description"
-      }
+      },
+      "type" : "CONCEPT"
     }
   }, {
     "name" : "_repo_repoUri",
     "expr" : {
-      "str" : "/common/course100-sandbox/"
+      "str" : "/common/course100-sandbox/",
+      "type" : "STRING"
     }
   }, {
     "name" : "repo",
@@ -35,7 +39,8 @@
       "concept" : "/common/core/dikjRMQUWrB_rK4hvxvxP8/",
       "bindings" : {
         "repoUri" : "_repo_repoUri"
-      }
+      },
+      "type" : "CONCEPT"
     }
   } ],
   "isas" : [ {
@@ -43,5 +48,6 @@
   }, {
     "var" : "repo"
   } ],
+  "encodedidxhash" : "",
   "isLambda" : false
 }

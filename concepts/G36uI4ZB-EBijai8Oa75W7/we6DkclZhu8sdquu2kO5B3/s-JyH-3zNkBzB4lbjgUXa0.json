@@ -9,24 +9,28 @@
     "name" : "firstName",
     "expr" : {
       "str" : "Jane",
-      "strEditMode" : ""
+      "strEditMode" : "",
+      "type" : "STRING"
     }
   }, {
     "name" : "lastName",
     "expr" : {
       "str" : "Doe",
-      "strEditMode" : ""
+      "strEditMode" : "",
+      "type" : "STRING"
     }
   }, {
     "name" : "htmlTemplate",
     "expr" : {
       "str" : "<head>\n  <script src=\"/resourcelocal://iuBEkts-cKA8Ha_JIN6JA2/\"></script>\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"/resourcelocal://0h6n12CibJBw5q_giDykW6/\">\n</head>\n<body>\n  <h1>Hello {{firstName}} {{lastName}}!</h1>\n</body>",
-      "strEditMode" : "html"
+      "strEditMode" : "html",
+      "type" : "STRING"
     }
   }, {
     "name" : "_page_propertyMap",
     "expr" : {
-      "script" : "return {firstName: firstName, lastName: lastName};"
+      "script" : "return {firstName: firstName, lastName: lastName};",
+      "type" : "SCRIPT"
     }
   }, {
     "name" : "page",
@@ -35,11 +39,13 @@
       "bindings" : {
         "htmlTemplate" : "htmlTemplate",
         "propertyMap" : "_page_propertyMap"
-      }
+      },
+      "type" : "CONCEPT"
     }
   } ],
   "isas" : [ {
     "var" : "page"
   } ],
+  "encodedidxhash" : "",
   "isLambda" : false
 }

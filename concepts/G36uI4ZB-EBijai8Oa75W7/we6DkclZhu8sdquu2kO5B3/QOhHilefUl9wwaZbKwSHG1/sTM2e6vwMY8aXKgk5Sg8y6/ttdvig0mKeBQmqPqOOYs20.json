@@ -8,12 +8,14 @@
   "vars" : [ {
     "name" : "_page_title",
     "expr" : {
-      "str" : "About Contact"
+      "str" : "About Contact",
+      "type" : "STRING"
     }
   }, {
     "name" : "_page_content",
     "expr" : {
-      "str" : "<p>The Contact lambda-concept has three lambda-properties, viz. firstName, lastName and email, and displays an editable form with these fields.</p>\n<p>Check out this <a title=\"Jack Smith\" href=\"../nRB-wlrUu38JbqT64Qa9o8/\">example contact</a>.</p>"
+      "str" : "<p>The Contact lambda-concept has three lambda-properties, viz. firstName, lastName and email, and displays an editable form with these fields.</p>\n<p>Check out this <a title=\"Jack Smith\" href=\"../nRB-wlrUu38JbqT64Qa9o8/\">example contact</a>.</p>",
+      "type" : "STRING"
     }
   }, {
     "name" : "page",
@@ -22,11 +24,13 @@
       "bindings" : {
         "title" : "_page_title",
         "content" : "_page_content"
-      }
+      },
+      "type" : "CONCEPT"
     }
   } ],
   "isas" : [ {
     "var" : "page"
   } ],
+  "encodedidxhash" : "",
   "isLambda" : false
 }

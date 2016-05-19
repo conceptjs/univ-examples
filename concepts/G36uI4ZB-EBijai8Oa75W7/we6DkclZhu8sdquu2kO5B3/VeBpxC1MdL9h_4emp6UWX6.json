@@ -15,12 +15,14 @@
     "name" : "htmlTemplate",
     "expr" : {
       "str" : "<head>\n  <meta content=\"script\" name=\"cjsSaveMode\">\n</head>\n<body>\n  <div id=\"container\" style=\"padding-top: 3em\">\n  <form class=\"form-horizontal col-sm-12 col-md-8 col-md-offset-2\">\n    <div class=\"form-group\">\n      <label for=\"inputFN\" class=\"col-sm-2 control-label\">First Name</label>\n      <div class=\"col-sm-10\">\n        <input type=\"text\" class=\"form-control\" id=\"inputFN\" placeholder=\"Enter the first name\" data-bind=\"textInput: firstName\">\n      </div>\n    </div>\n    <div class=\"form-group\">\n      <label for=\"inputLN\" class=\"col-sm-2 control-label\">Last Name</label>\n      <div class=\"col-sm-10\">\n        <input type=\"text\" class=\"form-control\" id=\"inputLN\" placeholder=\"Enter the last name\" data-bind=\"textInput: lastName\">\n      </div>\n    </div>\n    <div class=\"form-group\">\n      <div class=\"col-sm-offset-2 col-sm-10\">\n        <button type=\"submit\" class=\"btn btn-primary\" id=\"saveBtn\">Save</button>\n      </div>\n    </div>\n   </form>\n  </div>\n\n  <script>\n  var viewModel = $cjs.ko(\"{{{uri}}}\");\n  ko.applyBindings(viewModel);\n\n  $(\"#saveBtn\").click(function() {\n    $cjs.session.save();\n    return false;\n  });\n  </script>\n</body>",
-      "strEditMode" : "html"
+      "strEditMode" : "html",
+      "type" : "STRING"
     }
   }, {
     "name" : "_page_propertyMap",
     "expr" : {
-      "script" : "return {uri: home.uri()};"
+      "script" : "return {uri: home.uri()};",
+      "type" : "SCRIPT"
     }
   }, {
     "name" : "page",
@@ -29,11 +31,13 @@
       "bindings" : {
         "htmlTemplate" : "htmlTemplate",
         "propertyMap" : "_page_propertyMap"
-      }
+      },
+      "type" : "CONCEPT"
     }
   } ],
   "isas" : [ {
     "var" : "page"
   } ],
+  "encodedidxhash" : "",
   "isLambda" : true
 }

@@ -9,7 +9,8 @@
     "name" : "_page_html",
     "expr" : {
       "str" : "<head>\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"/resourcelocal://0h6n12CibJBw5q_giDykW6/\">\n</head>\n<body>\n  <h1>Hello World!</h1>\n</body>",
-      "strEditMode" : ""
+      "strEditMode" : "",
+      "type" : "STRING"
     }
   }, {
     "name" : "page",
@@ -17,11 +18,13 @@
       "concept" : "/common/core/iduwOQ2KZv8MWqamwqb6AE/",
       "bindings" : {
         "html" : "_page_html"
-      }
+      },
+      "type" : "CONCEPT"
     }
   } ],
   "isas" : [ {
     "var" : "page"
   } ],
+  "encodedidxhash" : "",
   "isLambda" : false
 }

@@ -8,12 +8,14 @@
   "vars" : [ {
     "name" : "folderName",
     "expr" : {
-      "str" : "Unit 8: Contacts"
+      "str" : "Unit 8: Contacts",
+      "type" : "STRING"
     }
   }, {
     "name" : "_folder_description",
     "expr" : {
-      "str" : "<p>This folder shows the Contact lambda concept and a custom contacts folder. </p>"
+      "str" : "<p>This folder shows the Contact lambda concept and a custom contacts folder. </p>",
+      "type" : "STRING"
     }
   }, {
     "name" : "folder",
@@ -22,11 +24,13 @@
       "bindings" : {
         "name" : "folderName",
         "description" : "_folder_description"
-      }
+      },
+      "type" : "CONCEPT"
     }
   } ],
   "isas" : [ {
     "var" : "folder"
   } ],
+  "encodedidxhash" : "",
   "isLambda" : false
 }

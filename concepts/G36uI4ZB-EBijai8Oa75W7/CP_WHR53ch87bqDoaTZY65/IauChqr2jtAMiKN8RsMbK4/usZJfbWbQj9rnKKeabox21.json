@@ -8,23 +8,27 @@
   "vars" : [ {
     "name" : "_programmer_firstName",
     "expr" : {
-      "str" : "Tim"
+      "str" : "Tim",
+      "type" : "STRING"
     }
   }, {
     "name" : "_programmer_lastName",
     "expr" : {
       "str" : "Berners-Lee",
-      "strEditMode" : ""
+      "strEditMode" : "",
+      "type" : "STRING"
     }
   }, {
     "name" : "_programmer_hasBeard",
     "expr" : {
-      "bool" : false
+      "bool" : false,
+      "type" : "BOOLEAN"
     }
   }, {
     "name" : "_programmer_bio",
     "expr" : {
-      "str" : "Inventor of the World-Wide Web"
+      "str" : "Inventor of the World-Wide Web",
+      "type" : "STRING"
     }
   }, {
     "name" : "programmer",
@@ -35,11 +39,13 @@
         "lastName" : "_programmer_lastName",
         "hasBeard" : "_programmer_hasBeard",
         "bio" : "_programmer_bio"
-      }
+      },
+      "type" : "CONCEPT"
     }
   } ],
   "isas" : [ {
     "var" : "programmer"
   } ],
+  "encodedidxhash" : "",
   "isLambda" : false
 }
